@@ -1,0 +1,18 @@
+html{
+    background-color: #1F2833;
+}
+#tittle{
+    color:rgb(218, 135, 27);text-align:center;
+}
+.text{
+    text-align: center;
+    color: white;
+}
+.game{
+    border: 100px solid green;
+    padding: 250px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}

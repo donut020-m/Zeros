@@ -1,0 +1,114 @@
+html{
+    min-height: 100%;
+   font-family: bradley hand, cursive;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.mainpart{
+    display: flex;
+    background-color: #1F2833;
+    flex-direction: column;
+    text-align: center;
+}
+.maintittle{
+    color: #66FCF1;
+    font-size: 60px;
+}
+.tittle{
+        color:#66FCF1;
+        text-align: center;
+    }
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.mainimage{
+    width: 200px;
+    height: 200px;
+}
+.nav-bar{
+    display: flex;
+    background-color: #1F2833;
+    justify-content:center;
+    align-items: flex-start;
+}
+.button:hover{
+    background-color: green;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.quotecontainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: left;
+  
+}
+.quote{
+    font-size: 34px;
+    font-weight: bolder;
+    flex: 1;
+    padding: 65px;
+    color: #C5C6C7;
+}
+.imageeinstein{
+    width: 200px;
+    height: 200px;
+}
+.images{
+    image-rendering: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: solid 4px #45A29E;
+    }
+.images:hover{
+        height: 210px;
+        border: solid 10px orange;
+        width: 210px;
+        }
+    .games{
+        display: flex;
+        background-color: #1F2833;
+        align-items: center;
+        justify-content: center;
+    }
+    .maininfo{
+        display: flex;
+        height: 200px ;
+        justify-content: center;
+        align-content: center;
+        background-color: #1F2833;
+    }
+    .text{
+        font-size: 24px;
+        text-align: center;
+        padding: 20px;
+        color: #C5C6C7;
+    }
+    .tittle2{
+        text-align: center;
+        font-size: 48px;
+        color: #66FCF1;
+    }
+    .creditscontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        background-color: #45A29E;
+        color: #e5e7eb;
+    }
+    .credits{
+    color: #e5e7eb;
+    }
